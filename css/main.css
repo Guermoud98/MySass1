@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nav-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.nav-desktop__hamburger {
+  display: none;
+}
+
+.nav-desktop__menu .nav-desktop__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-desktop__menu .nav-desktop__links li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.nav-desktop__menu .nav-desktop__links li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-desktop__menu .nav-desktop__links li a:hover {
+  color: #fa5757;
+}
+
+.nav-desktop__menu .nav-desktop__links .lastlink {
+  padding: 7px 20px;
+  border: 1.5px solid #fa5757;
+  border-radius: 5px;
+  background-color: #fa5757;
+  color: #fff;
+}
+
+.nav-desktop__menu .nav-desktop__links .lastlink:hover {
+  background-color: white;
+  color: #fa5757;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-desktop .nav-desktop__menu {
+    display: none;
+  }
+  .nav-desktop__hamburger {
+    display: block;
+  }
+  .nav-mobile {
+    display: block;
+    position: absolute;
+    background-color: rgba(37, 43, 70, 0.95);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .nav-mobile__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .nav-mobile__links {
+    padding: 0;
+  }
+  .nav-mobile__links li {
+    list-style-type: none;
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 1px solid #6e6e6e;
+    width: 67%;
+    text-align: center;
+    margin: 40px auto;
+    font-size: 20px;
+  }
+  .nav-mobile__links a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  .nav-mobile__links li:last-child {
+    border: none;
+    margin-top: 16px;
+  }
+  .nav-mobile__reseauxsociaux {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    top: 100px;
+  }
+  .nav-mobile__reseauxsociaux img {
+    padding: 5px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
