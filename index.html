@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    <!-- -------------------------------------------NavBar------------------------------------------------------------>
     <div id="nav-desktop" class="nav-desktop">
         <div class="nav-desktop__logo">
             <img src="./images/logo-bookmark.svg" alt="logoblack">
@@ -26,40 +26,60 @@
         <div class="nav-desktop__hamburger" onclick="openNav()">
             <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
         </div>
+    </div>
+    <div id="nav-mobile" class="nav-mobile">
+        <div class="nav-mobile__header">
+            <img id="logo" src="./images/logo-bookmark-white.png" alt="logo-bookmark">
+            <img src="./images/icon-close.svg" alt="icon-close" onclick="closeNav()">
+        </div>
 
+        <ul class="nav-mobile__links">
+            <li onclick="closeNav()">
+                <a href="#features">features</a>
+            </li>
+            <li onclick="closeNav()">
+                <a href="#pricing">pricing</a>
+            </li>
+            <li onclick="closeNav()">
+                <a href="#contact">contact</a>
+            </li>
+            <li onclick="closeNav()">
+                <a id="login" href="#">login</a>
+            </li>
+        </ul>
+
+        <div class="nav-mobile__reseauxsociaux">
+            <img src="./images/icon-facebook.svg" alt="icon-facebook">
+            <img src="./images/icon-twitter.svg" alt="">
+        </div>
 
     </div>
 
+    <!------------------------------------ Section 1 ----------------------------------------------------------->
 
-   <div id="nav-mobile" class="nav-mobile">
-            <div  class="nav-mobile__header">
-                <img id="logo" src="./images/logo-bookmark-white.png" alt="logo-bookmark">
-                <img src="./images/icon-close.svg" alt="icon-close" onclick="closeNav()">
-            </div>
+    <div class="description">
+        <div class="description__header">
+            <h1 class="description__title"> A Simple Bookmark Manager</h1>
+            <p class="description__parag"> A clean and simple interface to organize your favorite websites.
+                open a new browser tab and see your sites load instantly. Try it for free.
+            </p>
 
-            <ul class="nav-mobile__links">
-                <li onclick="closeNav()">
-                    <a href="#features">features</a>
-                </li>
-                <li onclick="closeNav()">
-                    <a href="#pricing">pricing</a>
-                </li>
-                <li onclick="closeNav()">
-                    <a href="#contact">contact</a>
-                </li>
-                <li onclick="closeNav()">
-                    <a id="login" href="#">login</a>
-                </li>
-            </ul>
 
-            <div class="nav-mobile__reseauxsociaux">
-                <img src="./images/icon-facebook.svg" alt="icon-facebook">
-                <img src="./images/icon-twitter.svg" alt="">
+            <div class="description__btn">
+                <button class="description__btn1 description__btn1--active"> Get it on Chrome </button>
+                <button class="description__btn2 "> Get it on Firefox </button>
             </div>
 
         </div>
 
-    <!------------------------------------ Section 1 ----------------------------------------------------------->
+        <div class="description__img">
+            <img src="./images/illustration-hero.svg" alt="">
+        </div>
+    </div>
+
+
+
+
 
 
 

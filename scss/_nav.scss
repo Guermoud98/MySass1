@@ -1,3 +1,33 @@
+// Colors : 
+
+$colors : (
+primary : hsl(0, 94%, 66%),
+secondary : black,
+tertiary : white,
+quaternary : rgb(110, 110, 110) 
+);
+
+@function color($color-name) {
+
+@return map-get($colors , $color-name) ;
+
+
+}
+
+
+
+@mixin displayContent ($display,$content) {
+
+ display: $display;
+ justify-content: $content;
+
+}
+
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -29,11 +59,11 @@ body {
            margin-left: 20px;
 
         a {
-            color:black;
+            color : color(secondary) ;
             text-decoration: none;
 
             &:hover {
-            color :hsl(0, 94%, 66%);
+            color : color(primary) ;
 
             } // hover de a 
         } //a
@@ -43,16 +73,16 @@ body {
 
         .lastlink {
             padding: 7px 20px;
-            border: 1.5px solid hsl(0, 94%, 66%);
+            border: 1.5px solid color(primary);
             border-radius: 5px;
-            background-color: hsl(0, 94%, 66%);
-            color: #fff;
+            background-color: color(primary);
+            color: color(tertiary);
         }
 
         .lastlink:hover {
 
-            background-color: white;
-            color:hsl(0, 94%, 66%);
+            background-color: color(tertiary);
+            color:color(primary);
 
         }
       
@@ -127,8 +157,7 @@ body {
             padding: 20px 0px;
             text-transform: uppercase;
             font-size: 18px;
-            border-bottom: 1px solid rgb(110, 110, 110);
-            
+            border-bottom: 1px solid color(quaternary);
             width: 67%;
             text-align: center;
             margin: 40px auto;
@@ -139,7 +168,7 @@ body {
 
         a {
             text-decoration: none;
-            color:white;
+            color:color(tertiary);
             text-transform: uppercase;
             
         }

@@ -47,7 +47,7 @@ body {
   border: 1.5px solid #fa5757;
   border-radius: 5px;
   background-color: #fa5757;
-  color: #fff;
+  color: white;
 }
 
 .nav-desktop__menu .nav-desktop__links .lastlink:hover {
@@ -67,7 +67,7 @@ body {
     display: block;
   }
   .nav-mobile {
-    display: block;
+    display: none;
     position: absolute;
     background-color: rgba(37, 43, 70, 0.95);
     top: 0;
@@ -120,5 +120,13 @@ body {
   .nav-mobile__reseauxsociaux img {
     padding: 5px;
   }
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 70wv;
 }
 /*# sourceMappingURL=main.css.map */
