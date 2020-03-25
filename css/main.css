@@ -187,9 +187,13 @@ body {
   color: white;
 }
 
-@media only screen and (max-width: 1068) {
-  .description .description__image img {
-    height: 200px;
-  }
+.Features {
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+
+.Features__title {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

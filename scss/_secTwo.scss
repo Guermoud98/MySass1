@@ -1,0 +1,12 @@
+@import 'variables';
+
+.Features {
+
+    margin: auto;
+    width: 35%;
+    text-align: center;
+
+    &__title {
+        font-size: 2rem;
+    }
+}
