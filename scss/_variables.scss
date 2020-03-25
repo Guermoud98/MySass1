@@ -1,0 +1,30 @@
+// Colors : 
+
+$colors : (
+primary : hsl(0, 94%, 66%),
+secondary : black,
+tertiary : white,
+quaternary : rgb(110, 110, 110) 
+);
+
+@function color($color-name) {
+
+@return map-get($colors , $color-name) ;
+
+
+}
+
+
+
+@mixin displayContent ($display,$content) {
+
+ display: $display;
+ justify-content: $content;
+
+}
+
+
+
+
+
+

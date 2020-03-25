@@ -1,8 +1,55 @@
+@import 'variables';
+
 .description {
 
  display: flex;
- margin-top: 50px;
- width: 70wv;
+ justify-content: space-around;
+ align-items: center;
+ width: 90%;
+ margin: auto;
+ 
+&__header {
+
+ width:30%;
+ margin-top: -100px;
+ margin-left: 100px;
+ justify-content: center;
+      
+ p {
+    
+color : color(quaternary);
+        
+}
+      
+} // header
+
+&__img{
+ 
+background-color: red ;   
+border-radius: 50% 0% 0% 50%;
+margin-top: 50px;
+
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // description__titlepara
+
 
 
 

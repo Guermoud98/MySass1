@@ -126,7 +126,31 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.description__header {
+  width: 30%;
+  margin-top: -100px;
+  margin-left: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description__header p {
+  color: #6e6e6e;
+}
+
+.description__img {
+  background-color: red;
+  border-radius: 50% 0% 0% 50%;
   margin-top: 50px;
-  width: 70wv;
 }
 /*# sourceMappingURL=main.css.map */
