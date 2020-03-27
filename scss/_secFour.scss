@@ -1,0 +1,49 @@
+@import 'variables';
+
+
+
+
+
+   .container {
+
+ 
+
+    .card {
+
+
+        box-shadow: 1px 2px 5px grey;
+
+        img {
+
+            width: 115px;
+        }
+    }
+  
+
+a:hover {
+
+background-color: white;
+border: 1px solid blue;
+color:blue;
+
+
+}
+
+} 
+
+@media (max-width: 557px)
+.card-deck {
+
+.card {
+
+    width: 240px;
+    margin:auto;
+}
+}
+}
+
+
+
+
+
+
