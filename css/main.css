@@ -197,18 +197,31 @@ body {
   font-size: 2rem;
 }
 
+.hello {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container .card {
   -webkit-box-shadow: 1px 2px 5px grey;
           box-shadow: 1px 2px 5px grey;
 }
 
 .container .card img {
-  width: 115px;
+  width: 85px;
 }
 
 .container a:hover {
   background-color: white;
   border: 1px solid blue;
   color: blue;
+}
+
+@media (max-width: 978px) {
+  .card-deck .card {
+    width: 240px;
+    margin: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */

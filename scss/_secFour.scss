@@ -6,6 +6,15 @@
 
    .container {
 
+
+
+    .card3 {
+
+        img {
+
+         
+        }
+    }
  
 
     .card {
@@ -15,7 +24,7 @@
 
         img {
 
-            width: 115px;
+            width: 85px;
         }
     }
   
@@ -29,18 +38,20 @@ color:blue;
 
 }
 
+
 } 
 
-@media (max-width: 557px)
-.card-deck {
+// @media (max-width:978px) {
+// .card-deck {
 
-.card {
+// .card {
+// width: 240px;
+// margin: auto;
 
-    width: 240px;
-    margin:auto;
-}
-}
-}
+// }
+// }
+
+// }
 
 
 
