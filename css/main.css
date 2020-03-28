@@ -76,6 +76,7 @@ body {
     height: 100vh;
     text-align: center;
     padding-top: 50px;
+    z-index: 1;
   }
   .nav-mobile__header {
     display: -webkit-box;
@@ -197,10 +198,46 @@ body {
   font-size: 2rem;
 }
 
-.hello {
+.accordion {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.accordion a {
+  color: black;
+  text-decoration: none;
+}
+
+.accordion a:hover {
+  color: #fa5757;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.accordion__contents {
+  overflow-x: hidden;
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion__contents .accordion__image1 {
+  width: 100px;
+}
+
+.accordion__contents .accordion__image2 {
+  width: 100px;
+}
+
+.accordion__contents .accordion__image3 {
+  width: 100px;
 }
 
 .container .card {
@@ -216,12 +253,5 @@ body {
   background-color: white;
   border: 1px solid blue;
   color: blue;
-}
-
-@media (max-width: 978px) {
-  .card-deck .card {
-    width: 240px;
-    margin: auto;
-  }
 }
 /*# sourceMappingURL=main.css.map */
