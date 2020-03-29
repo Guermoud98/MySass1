@@ -1,1 +1,80 @@
 @import 'variables';
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+.footer {
+
+margin-top: 20px;
+background-color: hsl(229, 31%, 21%);
+display: flex;
+justify-content: space-around;
+height: 50px;
+align-items: center;
+
+&__socialmedia {
+
+
+    color : white;
+    padding: 0 20px;
+    font-size: 18px;
+
+
+
+}
+&__links {
+
+a {
+
+color: white;
+padding: 0px 20px;
+
+}
+
+
+} //links
+
+
+
+} //.footer
+
+}
+
+@media screen and (max-width:411px) {
+body {
+
+
+.footer {
+
+display: block;
+ height: 100px;
+ text-align: center;
+font-size: 10px;
+justify-content: space-between;
+
+
+
+
+    &__links { 
+
+display: flex;
+flex-direction: column;
+
+
+    }
+
+
+    &__socialmedia {
+
+
+        font-size: 12px;
+    }
+}
+
+
+
+}
+
+}

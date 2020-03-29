@@ -4,7 +4,8 @@ $colors : (
 primary : hsl(0, 94%, 66%),
 secondary : black,
 tertiary : white,
-quaternary : rgb(110, 110, 110) 
+quaternary : rgb(110, 110, 110) ,
+blue: hsl(231, 69%, 60%)
 );
 
 @function color($color-name) {
