@@ -198,46 +198,54 @@ body {
   font-size: 2rem;
 }
 
-.accordion {
-  margin: auto;
+.accordion .accordion__tab {
+  display: none;
+}
+
+.accordion .accordion__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.accordion a {
-  color: black;
-  text-decoration: none;
+.accordion .accordion__links .accordian__containerlink {
+  -webkit-box-shadow: 0 1px 0  grey;
+          box-shadow: 0 1px 0  grey;
+  padding: 0 10px;
 }
 
-.accordion a:hover {
+.accordion .accordion__links .accordian__containerlink--active {
+  border-bottom: 3px solid #fa5757;
+}
+
+.accordion .accordion__links a {
+  text-decoration: none;
+  padding: 0 30px;
+  color: black;
+}
+
+.accordion .accordion__links a:hover {
   color: #fa5757;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
 }
 
 .accordion__contents {
-  overflow-x: hidden;
-  max-height: 0;
-  margin: 0;
-  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 100px;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.accordion__contents .accordion__image1 {
-  width: 100px;
-}
-
-.accordion__contents .accordion__image2 {
-  width: 100px;
-}
-
-.accordion__contents .accordion__image3 {
-  width: 100px;
+.accordion__contents img {
+  height: 40%;
+  width: 40%;
+  margin-right: 91px;
 }
 
 .container .card {

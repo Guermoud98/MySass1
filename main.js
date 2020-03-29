@@ -6,3 +6,5 @@ function closeNav() {
     document.querySelector('#nav-mobile').style.display = "none";
     document.querySelector('#nav-desktop').style.display = "flex";
 }
+
+
