@@ -83,10 +83,15 @@
 
         <div class="accordion__links">
 
-            <div class="accordian__containerlink--active"> <a class="accordion__link" href="#accordion__menu">Simple Bookmarking</a></div>
-            <div class="accordian__containerlink" > <a class="accordion__link" href="#accordion__menu">Speedy search</a></div>
-            <div class="accordian__containerlink"><a class="accordion__link" href="#accordion__menu">Easy Sharing</a></div>
+            <div class="accordian__containerlink " onclick="showtab('tab1')"> <a class="accordion__link"
+                    href="#accordion__menu">Simple Bookmarking</a></div>
+            <div class="accordian__containerlink" onclick="showtab('tab2')"> <a class="accordion__link"
+                    href="#accordion__menu">Speedy search</a></div>
+            <div class="accordian__containerlink" onclick="showtab('tab3')"><a class="accordion__link"
+                    href="#accordion__menu">Easy Sharing</a></div>
         </div>
+
+
 
 
         <section id="tab1" class="accordion__tab">
@@ -184,8 +189,56 @@
 
     <!--------------------------------------------------------------------section 5------------------------------------------------------>
 
+    <div class="Frequently">
+        <h1 class="Frequently__title">Frequently Asked Questions</h1>
+        <p class="Frequently__parag"> Here are some of our FAQs. if you have aby other questions yoy'de like answered
+            please feel free to email us. </p>
+    </div>
 
 
+
+    <div id="accordion ">
+
+        <div class="card section5">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+        <div class="card section5">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                    Collapsible Group Item #2
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+        <div class="card section5">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    Collapsible Group Item #3
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum..
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
 

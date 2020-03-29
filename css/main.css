@@ -217,7 +217,7 @@ body {
   padding: 30px 10px;
 }
 
-.accordion .accordion__links .accordian__containerlink--active {
+.accordion .accordion__links .tab-active {
   border-bottom: 3px solid #fa5757;
 }
 
@@ -261,5 +261,12 @@ body {
   background-color: white;
   border: 1px solid blue;
   color: blue;
+}
+
+.frequen
+.section5 {
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
 }
 /*# sourceMappingURL=main.css.map */

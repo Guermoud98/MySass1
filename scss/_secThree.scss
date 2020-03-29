@@ -20,20 +20,16 @@ justify-content: center;
     box-shadow: 0 1px 0  grey;
     padding: 30px 10px ;
  
-
-
-  &--active {
-
-   
-
-        border-bottom: 3px solid hsl(0, 94%, 66%);
-   
     
-  }  
+
+
 }
 
 
- 
+
+ .tab-active {
+   border-bottom: 3px solid hsl(0, 94%, 66%) ;
+ }
 
 
 a {

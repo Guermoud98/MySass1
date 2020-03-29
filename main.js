@@ -7,4 +7,12 @@ function closeNav() {
     document.querySelector('#nav-desktop').style.display = "flex";
 }
 
+function showtab(tab) {
+console.log(tab);
+document.querySelector('.accordion__tab').style.display = "none" ;
+document.querySelector('#'+ tab).style.display = "block" ;
+
+
+
+}
 
